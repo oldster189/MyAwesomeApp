@@ -8,15 +8,23 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@nexus/schema": "^0.20.1",
+    "@prisma/cli": "^2.17.0",
+    "@prisma/client": "^2.17.0",
+    "apollo-server-micro": "^2.21.0",
+    "axios": "^0.21.1",
+    "crypto": "^1.0.1",
     "next": "latest",
+    "nexus-plugin-prisma": "^0.31.0",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "uuid-v4": "^0.1.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
-    "typescript": "4.0"
+    "typescript": "^4.2.2"
   },
   "license": "MIT"
 }

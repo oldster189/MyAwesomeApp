@@ -1,0 +1,30 @@
+{
+  "amount": 250,
+  "currency": "THB",
+  "orderId": "asdasd1123d12e",
+  "packages": [
+    {
+      "id": "1212d2112d",
+      "amount": 250,
+      "name": "Toy Package",
+      "products": [
+        {
+          "name": "ตุ๊กตา Cony",
+          "quantity": 1,
+          "price": 100,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/linedeveloper-63341.appspot.com/o/512x512bb.jpg?alt=media&token=7cfd10b0-6d01-4612-b42e-b1b4d0105acd"
+        },
+        {
+          "name": "ตุ๊กตา Sally",
+          "quantity": 1,
+          "price": 150,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/linedeveloper-63341.appspot.com/o/8cd724371a6f169b977684fd69cc2339.jpg?alt=media&token=e2008ff7-1cad-4476-a2e4-cda5f8af6561"
+        }
+      ]
+    }
+  ],
+  "redirectUrls": {
+    "confirmUrl": "https://us-central1-linedeveloper-63341.cloudfunctions.net/confirmOrder",
+    "cancelUrl": "https://us-central1-linedeveloper-63341.cloudfunctions.net/confirmOrder"
+  }
+}
